@@ -1,7 +1,7 @@
 - name: About
   link: /
 - name: Resume
-  link: {{ base }}/resume.html
+  link: /resume.html
 - name: Projects
   link: /projects.html
 - name: Contact
