@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "styles.css",
+	"sources": [
+		"styles.scss",
+		"_sass/main.scss"
+	],
+	"sourcesContent": [
+		"@import \"main\";",
+		"body {\n    background-image: url(\"https://media.tenor.com/PA5BcamPG5QAAAAC/love-galaxy.gif\");\n    background-size: cover;\n    background-repeat: no-repeat;\n    font-family: 'Open Sans', sans-serif;\n    padding-top: 3.5rem;\n    padding-bottom: 3.5rem;\n    margin: 0;\n    display: flex;\n    min-height: 100vh;\n    flex-direction: column;\n    overflow-x: hidden;\n    overflow-y: scroll;\n    font-weight: 700;\n}\n\n.title h1 {\n    font-size: 2rem;\n    font-weight: 900;\n}\n\na {\n    color: white;\n    &:hover {\n        // text-decoration: none;\n        color:white;\n    }\n}\n\nfooter {\n    color:white;\n    & img {\n        filter: brightness(0) invert(1);\n\n    }\n}\n\n.content {\n    flex: 1;\n}\n\n.tiny {\n    max-width: 10%;\n}\n"
+	],
+	"names": [],
+	"mappings": "ACAA,AAAA,IAAI,CAAC,EACD,gBAAgB,EAAE,+DAA+D,EACjF,eAAe,EAAE,KAAK,EACtB,iBAAiB,EAAE,SAAS,EAC5B,WAAW,EAAE,uBAAuB,EACpC,WAAW,EAAE,MAAM,EACnB,cAAc,EAAE,MAAM,EACtB,MAAM,EAAE,CAAC,EACT,OAAO,EAAE,IAAI,EACb,UAAU,EAAE,KAAK,EACjB,cAAc,EAAE,MAAM,EACtB,UAAU,EAAE,MAAM,EAClB,UAAU,EAAE,MAAM,EAClB,WAAW,EAAE,GAAG,GACnB;;AAED,AAAA,MAAM,CAAC,EAAE,CAAC,EACN,SAAS,EAAE,IAAI,EACf,WAAW,EAAE,GAAG,GACnB;;AAED,AAAA,CAAC,CAAC,EACE,KAAK,EAAE,KAAK,GAKf;;AAND,AAEI,CAFH,CAEK,KAAK,CAAC,EAEJ,KAAK,EAAC,KAAK,GACd;;AAGL,AAAA,MAAM,CAAC,EACH,KAAK,EAAC,KAAK,GAKd;;AAND,AAEI,MAFE,CAEA,GAAG,CAAC,EACF,MAAM,EAAE,aAAa,CAAC,SAAS,GAElC;;AAGL,AAAA,QAAQ,CAAC,EACL,IAAI,EAAE,CAAC,GACV;;AAED,AAAA,KAAK,CAAC,EACF,SAAS,EAAE,GAAG,GACjB"
+}
