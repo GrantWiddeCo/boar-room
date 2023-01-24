@@ -1,7 +1,4 @@
 body {
-    background-image: url("https://media.tenor.com/PA5BcamPG5QAAAAC/love-galaxy.gif");
-    background-size: cover;
-    background-repeat: no-repeat;
     font-family: 'Open Sans', sans-serif;
     padding-top: 3.5rem;
     padding-bottom: 3.5rem;
@@ -12,6 +9,12 @@ body {
     overflow-x: hidden;
     overflow-y: scroll;
     font-weight: 700;
+}
+
+.galaxy-bg {
+    background-image: url("https://media.tenor.com/PA5BcamPG5QAAAAC/love-galaxy.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .title h1 {
@@ -28,10 +31,67 @@ a {
     }
 }
 
+.projects {
+    a {
+        color: black;
+    
+        &:hover {
+            // text-decoration: none;
+            color: black;
+        }
+    }
+    footer {
+        color: black;
+    
+        & img {
+            filter: unset;
+    
+        }
+    }
+    
+}
+
 // Content
 
 .content {
     flex: 1;
+}
+
+.coming-soon {
+    color: white;
+    animation-name: example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+    p {
+        font-size: 5rem;
+    }
+}
+
+@keyframes example {
+    0% {
+        color: rgb(246, 123, 123);
+    }
+
+    20% {
+        color: rgb(244, 181, 64);
+    }
+
+    40% {
+        color: rgb(255, 255, 182);
+    }
+
+    60% {
+        color: rgb(118, 198, 118);
+    }
+
+    80% {
+        color: lightblue;
+    }
+
+    100% {
+        color: rgb(115, 83, 217);
+    }
 }
 
 
