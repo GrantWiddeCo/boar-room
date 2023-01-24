@@ -17,6 +17,10 @@ body {
     background-repeat: no-repeat;
 }
 
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+}
+
 .title h1 {
     font-size: 2rem;
     font-weight: 900;
@@ -34,21 +38,26 @@ a {
 .projects {
     a {
         color: black;
-    
+
         &:hover {
             // text-decoration: none;
             color: black;
         }
     }
+
     footer {
         color: black;
-    
+
         & img {
             filter: unset;
-    
+
         }
     }
-    
+
+}
+
+.contact {
+    color: white;
 }
 
 // Content
