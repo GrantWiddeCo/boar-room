@@ -6,11 +6,15 @@ a { color: white; }
 
 a:hover { color: white; }
 
+.content { flex: 1; }
+
+/* Resume */
+.resume-image { max-width: 70%; border: 10px solid #A1AA82; }
+
+/* Footer */
 footer { color: white; }
 
 footer img { filter: brightness(0) invert(1); }
-
-.content { flex: 1; }
 
 .tiny { max-width: 10%; }
 

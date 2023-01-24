@@ -21,22 +21,36 @@ body {
 
 a {
     color: white;
+
     &:hover {
         // text-decoration: none;
-        color:white;
+        color: white;
     }
 }
 
+// Content
+
+.content {
+    flex: 1;
+}
+
+
+/* Resume */
+
+.resume-image {
+    max-width: 70%;
+    border: 10px solid #A1AA82;
+}
+
+/* Footer */
+
 footer {
-    color:white;
+    color: white;
+
     & img {
         filter: brightness(0) invert(1);
 
     }
-}
-
-.content {
-    flex: 1;
 }
 
 .tiny {
