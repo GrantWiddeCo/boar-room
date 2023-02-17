@@ -1,6 +1,6 @@
 body { font-family: 'Open Sans', sans-serif; padding-bottom: 3.5rem; margin: 0; display: flex; min-height: 100vh; flex-direction: column; overflow-x: hidden; overflow-y: scroll; font-weight: 700; }
 
-.galaxy-bg { background-image: url("https://media.tenor.com/PA5BcamPG5QAAAAC/love-galaxy.gif"); background-size: cover; background-repeat: no-repeat; }
+.galaxy-bg { background: black; }
 
 nav { padding-top: 3.5rem; }
 
